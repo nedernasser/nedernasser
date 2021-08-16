@@ -7,11 +7,3 @@
 
 - I'm a passionate and relentless programmer :satisfied:
 - I have a keen eye for details and I love challenges :exclamation:
-
-graph LR
-
-  db1[(DB 1)] & dbn[(DB n)]
-
-  db1 & dbn ----> microservice(redshift conversion)
-
-  microservice ------> redshift[(redshift)]
